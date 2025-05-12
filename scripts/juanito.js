@@ -1,6 +1,6 @@
 import * as THREE from '../node_modules/three/build/three.module.js';
-import { GLTFLoader } from '../node_modules/three/addons/loaders/GLTFLoader.js';
-import { OrbitControls } from '../node_modules/three/addons/controls/OrbitControls.js';
+import { GLTFLoader } from '../node_modules/three/jsm/loaders/GLTFLoader.js';
+import { OrbitControls } from '../node_modules/three/jsm/controls/OrbitControls.js';
 
 // Preparar escena
 const scene = new THREE.Scene();
